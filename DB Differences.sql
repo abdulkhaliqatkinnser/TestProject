@@ -3,6 +3,7 @@ Select distinct [type], type_desc from sys.objects order by [type]
 ('U','V','P','FN','IF')
 
 */
+
 ---- In 01, but not in 02
 ---		Procedures
 Select [name], [type], type_desc From ADLWareCompany01Develop.sys.objects 
